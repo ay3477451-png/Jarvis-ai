@@ -15,7 +15,7 @@ jobs:
         with:
           gradle-version: 8.9
       - name: Unzip project
-        run: unzip -q JarvisAI-phase1.zip
+        run: unzip -q JarvisAI-phase2.zip
       - name: Build
         working-directory: JarvisAI
         run: gradle assembleDebug --no-daemon
